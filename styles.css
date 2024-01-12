@@ -30,6 +30,10 @@ a {
     color: white;
 }
 
+.hamburger {
+    display: none;
+}
+
 .aboutme_container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -38,15 +42,50 @@ a {
 .aboutme_text {
     background: pink;
     color: darkblue;
-    padding: 5vw;
+    padding: 7% 15%;
     line-height: 1.5vw;
-    font-family: 'Alata', sans-serif;
+    font-family: 'Afacad', sans-serif;
+    font-size: 1.2vw;
+}
+
+.aboutme_title {
+    font-family: 'Alata';
+    font-weight: 400;
+}
+
+.skills {
+    border: solid 1px grey;
+    padding: 2% 2%;
+    width: 80%;
 }
 
 .portfolio_img {
-    max-width: 40vw;
+    max-width: 115%;
     height: auto;
 }
+
+.linkedin {
+      background-color: #EA4C89;
+      border-radius: 8px;
+      border-style: none;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      height: 40px;
+      line-height: 20px;
+      list-style: none;
+      margin: 0;
+      outline: none;
+      padding: 10px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+    }
+    
 
 .title1 {
     background-color: beige;
@@ -70,6 +109,7 @@ a {
 .mobileapp_text {
     background-color:bisque;
     padding: 10% 20%;
+    font-family: 'Afacad', sans-serif;
 }
 
 .mobileapp_video {
@@ -97,6 +137,7 @@ a {
 .webapp1_text {
     background-color: pink;
     padding: 3% 10%;
+    font-family: 'Afacad', sans-serif;
 }
 
 .webapp1_buttons {
@@ -108,24 +149,53 @@ a {
 }
 
 .webapp_link1 {
-    padding: 1% 2%;
-    border: none;
-    margin: 1.5% 0;
-    background-color: white;
-    font-size: 100%;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 1% 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
 }
 
 .code_link1 {
-    padding: 1% 2%;
-    border: none;
-    margin: 1.5% 0;
-    background-color: white;
-    font-size: 100%;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 1% 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
 }
 
 .webapp2_text {
     background-color: beige;
     padding: 3% 10%;
+    font-family: 'Afacad', sans-serif;
 }
 
 .webapp2_buttons {
@@ -137,19 +207,47 @@ a {
 }
 
 .webapp_link2 {
-    padding: 1% 2%;
-    border: none;
-    margin: 1.5% 0;
-    background-color: white;
-    font-size: 100%;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 1% 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
 }
 
 .code_link2 {
-    padding: 1% 2%;
-    border: none;
-    margin: 1.5% 0;
-    background-color: white;
-    font-size: 100%;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 1% 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
 }
 
 footer {
@@ -158,6 +256,85 @@ footer {
     text-align: center;
     color: white;
 }
+
+.footer_link {
+    background-color: #631a48;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 1% 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+@media all and (max-width: 600px) {
+    
+    /* HEADER */
+
+    .nav {
+        display: none;
+    }
+    
+    .hamburger {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .hamburger-content {
+        display: none;
+        position: absolute;
+        right:0;
+        z-index:1;
+      }
+
+      .hamburger-content ul {
+        flex-direction: column;
+      }
+
+      .hamburger-content ul li {
+        background-color: yellow;
+        border-bottom: 1px solid blue;
+        width:100%;
+      }
+
+      .hamburger:hover .hamburger-content {
+        display: block;
+      /* animation: popup .5s ease-in-out both; */
+      }
+      
+      .hamburger span {
+        transition: transform .5s;
+      -webkit-transition: -webkit-transform .5s;
+        display: block;
+        transform: rotate(90deg);
+      }
+      
+      .hamburger:hover span {
+        transition: transform .5s;
+      -webkit-transition: -webkit-transform .5s;
+        display: block;
+        transform: rotate(180deg);
+      }
+
+
+}
+
+
+
 
 
 
