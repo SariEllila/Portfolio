@@ -1,0 +1,163 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+
+header {
+    background-color: rgb(128, 47, 93);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon {
+    place-self: center;
+    padding-left: 10%;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.aboutme_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.aboutme_text {
+    background: pink;
+    color: darkblue;
+    padding: 5vw;
+    line-height: 1.5vw;
+    font-family: 'Alata', sans-serif;
+}
+
+.portfolio_img {
+    max-width: 40vw;
+    height: auto;
+}
+
+.title1 {
+    background-color: beige;
+    text-align: start;
+    padding: 2% 2%;
+    font-size: 1.8em;
+}
+
+.title2 {
+    text-align: start;
+    padding: 0.1% 2%;
+    background-color: rgb(128, 47, 93);
+    color: white;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mobileapp_text {
+    background-color:bisque;
+    padding: 10% 20%;
+}
+
+.mobileapp_video {
+    align-self: center;
+    justify-self: center;
+}
+
+.title3 {
+    text-align: start;
+    padding: 0.1% 2%;
+    background-color: rgb(128, 47, 93);
+    color: white;
+}
+
+.content2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.webapp1_text {
+    background-color: pink;
+    padding: 3% 10%;
+}
+
+.webapp1_buttons {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.webapp_link1 {
+    padding: 1% 2%;
+    border: none;
+    margin: 1.5% 0;
+    background-color: white;
+    font-size: 100%;
+}
+
+.code_link1 {
+    padding: 1% 2%;
+    border: none;
+    margin: 1.5% 0;
+    background-color: white;
+    font-size: 100%;
+}
+
+.webapp2_text {
+    background-color: beige;
+    padding: 3% 10%;
+}
+
+.webapp2_buttons {
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.webapp_link2 {
+    padding: 1% 2%;
+    border: none;
+    margin: 1.5% 0;
+    background-color: white;
+    font-size: 100%;
+}
+
+.code_link2 {
+    padding: 1% 2%;
+    border: none;
+    margin: 1.5% 0;
+    background-color: white;
+    font-size: 100%;
+}
+
+footer {
+    background-color: rgb(128, 47, 93);
+    padding: 2% 0;
+    text-align: center;
+    color: white;
+}
+
+
+
