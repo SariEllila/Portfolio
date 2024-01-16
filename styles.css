@@ -92,7 +92,7 @@ a {
     }
 
     .linkedin:hover {
-        background-color: #963484;
+        background-color: #60AFFF;
     }
     
 
@@ -124,7 +124,6 @@ a {
     font-size: 110%
 }
 
-
 .title3 {
     text-align: start;
     padding: 0.1% 2%;
@@ -142,6 +141,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: white;
+    border-top: 15px rgb(10, 10, 10) solid;
 }
 
 .webapp1_text {
@@ -172,6 +172,10 @@ a {
     text-decoration: none;
 }
 
+.webapp_link1:hover {
+        background-color: #963484;
+}
+
 .code_link1 {
     background-color: #EA4C89;
     border-radius: 8px;
@@ -186,7 +190,7 @@ a {
     height: 40px;
     line-height: 20px;
     list-style: none;
-    margin: 1% 0;
+    margin: 1% 2%;
     outline: none;
     padding: 10px 16px;
     position: relative;
@@ -236,6 +240,10 @@ a {
     text-decoration: none;
 }
 
+.webapp_link2:hover {
+    background-color: #963484;
+}
+
 .code_link2 {
     background-color: #EA4C89;
     border-radius: 8px;
@@ -250,12 +258,16 @@ a {
     height: 40px;
     line-height: 20px;
     list-style: none;
-    margin: 1% 0;
+    margin: 1% 2%;
     outline: none;
     padding: 10px 16px;
     position: relative;
     text-align: center;
     text-decoration: none;
+}
+
+.code_link2:hover {
+    background-color: #963484;
 }
 
 footer {
