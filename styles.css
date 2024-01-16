@@ -36,16 +36,16 @@ a {
 
 .aboutme_container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 30% 70%;
 }
 
 .aboutme_text {
     background: #3066BE;
     color: white;
-    padding: 8% 13%;
+    padding: 2% 10%;
     line-height: 1.8vw;
     font-family: 'Afacad', sans-serif;
-    font-size: 1.3vw;
+    font-size: 90%;
 }
 
 .aboutme_title {
@@ -55,16 +55,18 @@ a {
 
 .skills {
     border-radius: 10px;
-    padding: 2% 5%;
-    width: 80%;
-    color: rgb(13, 13, 13);
+    padding: 2% 3%;
+    max-width: 70%;
+    color: rgb(57, 57, 57);
     background: #60AFFF;
-    font-size: 95%;
+    font-size: 140%;
+    margin-top: 4%;
 }
 
 .portfolio_img {
-    max-width: 130%;
-    height: auto;
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
 }
 
 .linkedin {
@@ -76,7 +78,7 @@ a {
       cursor: pointer;
       display: inline-block;
       font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 85%;
+      font-size: 110%;
       font-weight: 500;
       height: 40px;
       line-height: 20px;
@@ -87,6 +89,10 @@ a {
       position: relative;
       text-align: center;
       text-decoration: none;
+    }
+
+    .linkedin:hover {
+        background-color: #963484;
     }
     
 
@@ -107,20 +113,17 @@ a {
 
 .content1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% 60%;
 }
 
 .mobileapp_text {
     background-color: #3066BE;
-    padding: 10% 15%;
+    padding: 10%;
     font-family: 'Afacad', sans-serif;
     color: white;
+    font-size: 110%
 }
 
-.video {
-    width: 100%;
-    height:100%;
-}
 
 .title3 {
     text-align: start;
@@ -189,6 +192,10 @@ a {
     position: relative;
     text-align: center;
     text-decoration: none;
+}
+
+.code_link1:hover {
+    background-color: #963484;
 }
 
 .webapp2_text {
@@ -278,6 +285,10 @@ footer {
     position: relative;
     text-align: center;
     text-decoration: none;
+}
+
+.footer_link:hover {
+    background-color: #60AFFF;
 }
 
 
