@@ -17,6 +17,10 @@ header {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.hamburger {
+    display: none;
+}
+
 
 .icon {
     place-self: center;
@@ -361,11 +365,156 @@ footer {
 
 @media screen and (max-width: 599px) {
     body {
-      width: 100%; /* Make the container full width */
-      padding: 0 5px; /* Add some padding for better readability */
+      width: 100%;
     }
-    /* Additional mobile styles can be added here */
+
+
+/* HEADER */
+
+.icon {
+    font-size: 5vw;
+    margin-left: 3vw;
+}
+
+  .nav {
+    display: none;
+}
+
+.hamburger {
+    position: absolute;
+    top: 6vw; /* Adjust top position as needed */
+    right: 3vw;/* Adjust right position as needed */
+    display: inline-block;
   }
+
+  .hamburger-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+  }
+
+  .hamburger-content ul {
+    flex-direction: column;
+  }
+
+  .hamburger-content ul li {
+    background-color: rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(26, 26, 26);
+    width: 100%;
+  }
+
+  .hamburger:hover .hamburger-content {
+    display: block;
+    list-style-type: none;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10vw 3vw 10vw 85vw;
+  }
+  
+  .hamburger span {
+    transition: transform .5s;
+  -webkit-transition: -webkit-transform .5s;
+    display: block;
+    transform: rotate(90deg);
+  }
+  
+  .hamburger:hover span {
+    transition: transform .5s;
+  -webkit-transition: -webkit-transform .5s;
+    display: block;
+    transform: rotate(180deg);
+  }
+
+
+
+
+  .aboutme_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+.aboutme_text {
+    padding: 4% 12%;
+    line-height: 7vw;
+    font-size: 70%;
+    background: rgba(38, 38, 38, 0.9);
+    border-radius: 1%;
+    margin: 0 3%;
+    color: rgb(246, 240, 240);
+}
+
+.bootcamp_title {
+    color: rgb(250, 134, 153);
+    font-size: 110%;
+}
+
+.aboutme_title {
+    font-family: 'Alata';
+    font-weight: bold;
+    font-size: 5vw;
+    color: rgb(250, 134, 153);
+}
+
+.skills {
+    border-radius: 10px;
+    padding: 5% 10%;
+    max-width: 70%;
+    color: #FFFFFF;
+    background-color: rgb(182, 0, 112);
+    font-size: 4vw;
+    margin-top: 8%;
+    line-height: 6vw;
+    font-weight: bolder;
+}
+
+.skills_title {
+    font-size: 5vw;
+    font-family: 'questrial';
+}
+
+.portfolio_img {
+    width: 120vw;
+    height: auto; /* Reset height to auto */
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    object-fit: contain; /* Use contain to ensure the entire image is visible */
+    border-radius: 3%; /* Make the image round */ /* Remove the negative margin-top */
+    margin-top: 5%;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+.linkedin {
+      background-color: rgb(250, 134, 153);
+      border-radius: 8px;
+      border-style: none;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 110%;
+      font-weight: 500;
+      height: 40px;
+      line-height: 20px;
+      list-style: none;
+      margin: 0% 1%;
+      outline: none;
+      padding: 10px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .linkedin:hover {
+        background-color: #60AFFF;
+    }
+
+
+}
 
 
 
